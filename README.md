@@ -13,7 +13,7 @@ Convex Hull: This helps in detecting the hand's shape and its orientation, allow
 Canvas Creation: A blank canvas (a numpy array) is created where the drawing will be rendered.
 Tracking the Marker: The detected marker's position is continuously tracked, and its coordinates are used to draw on the canvas.
 Drawing Logic: Lines are drawn on the canvas by connecting the consecutive coordinates of the marker. OpenCV's line function is commonly used for this purpose.
-4. Displaying the Output
+4. Displaying the Output:
 The processed frames with the drawing are displayed in real-time using OpenCV's imshow function.
 The application may also show the original video feed with the detected marker highlighted for reference.
 Features and Improvements
@@ -21,5 +21,3 @@ Color Customization: Allow users to select different colors for drawing.
 Thickness Control: Implement gesture-based control to change the thickness of the brush.
 Eraser Mode: Add a mode to erase parts of the drawing.
 Save and Load: Implement functionality to save the drawing and load previous drawings.
-Conclusion
-AirCanvas is an exciting project that combines computer vision techniques with interactive drawing capabilities. Using OpenCV, you can create a user-friendly application that enables drawing in the air with simple hand gestures, making it a fun and educational tool for exploring the potential of computer vision.
